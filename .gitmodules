@@ -1,0 +1,24 @@
+[submodule "microtvm-spike-template"]
+	path = microtvm-spike-template
+	url = git@github.com:PhilippvK/microtvm-spike-template.git
+[submodule "microtvm-etiss-template"]
+	path = microtvm-etiss-template
+	url = git@github.com:PhilippvK/microtvm-etiss-template.git
+[submodule "microtvm-espidf-template"]
+	path = microtvm-espidf-template
+	url = git@github.com:PhilippvK/microtvm-espidf-template.git
+[submodule "microtvm-etiss-perf-template"]
+	path = microtvm-etiss-perf-template
+	url = git@github.com:PhilippvK/microtvm-etiss-perf-template.git
+[submodule "microtvm-cfu-template"]
+	path = microtvm-cfu-template
+	url = git@github.com:PhilippvK/microtvm-cfu-template.git
+[submodule "microtvm-vicuna-template"]
+	path = microtvm-vicuna-template
+	url = git@github.com:PhilippvK/microtvm-vicuna-template.git
+[submodule "microtvm-ovpsim-template"]
+	path = microtvm-ovpsim-template
+	url = git@github.com:PhilippvK/microtvm-ovpsim-template.git
+[submodule "microtvm-gvsoc-template"]
+	path = microtvm-gvsoc-template
+	url = git@github.com:PhilippvK/microtvm-gvsoc-template.git
