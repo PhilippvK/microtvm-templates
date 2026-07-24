@@ -6,14 +6,16 @@ This repository is a wrapper around several microTVM project templates. Each tem
 
 | Template                       | Notes                         |
 | ------------------------------ | ----------------------------- |
-| `microtvm-cfu-template`        |                               |
-| `microtvm-espidf-template`     |                               |
-| `microtvm-etiss-perf-template` |                               |
-| `microtvm-etiss-template`      |                               |
-| `microtvm-gvsoc-template`      | ⚠ Deprecated |
-| `microtvm-ovpsim-template`     | ⚠ Deprecated |
-| `microtvm-spike-template`      |                               |
-| `microtvm-vicuna-template`     |                               |
+| `microtvm-cfu-template`        | Targeting [CDU Playground](https://cfu-playground.readthedocs.io/en/latest/) Renode, Verilator & FPGA Targets |
+| `microtvm-espidf-template`     | Targeting [ESP-IDF](https://github.com/espressif/esp-idf) Targets (ESP32-C3,...) |
+| `microtvm-etiss-perf-template` | Targeting [ETISS Perf Sim](https://github.com/tum-ei-eda/PerformanceSimulation_workspace)                              |
+| `microtvm-etiss-template`      | Targeting [ETISS](https://github.com/tum-ei-eda/etiss)                              |
+| `microtvm-gvsoc-template`      | Targeting [gvsoc](https://github.com/gvsoc/gvsoc) ⚠ Deprecated |
+| `microtvm-ovpsim-template`     | Targeting [OVPSim](https://github.com/openhwgroup/riscv-ovpsim-corev) ⚠ Deprecated |
+| `microtvm-spike-template`      | Targeting [Spike/`riscv-isa-sim`](https://github.com/riscv-software-src/riscv-isa-sim) with [Proxy Kernel](https://github.com/riscv-software-src/riscv-pk)* |
+| `microtvm-vicuna-template`     | Targeting [Vicuna](https://github.com/vproc/vicuna) and [Vicuna2](https://github.com/vproc/vicuna2_core) vector processor |
+
+*) Newer versions of proxy kernel might need UART/Semihosting patch.
 
 ## Cloning
 
